@@ -34,7 +34,7 @@ public class RentReceiptGenerator {
 
         for (int i = 1; i <= 12; i++) {
             Map<String, String> map = new HashMap<String, String>();
-            Document document = new Document(userDirectory + "\\src\\main\\Resources\\RentTemplate.docx");
+            Document document = new Document(userDirectory + "\\Template\\RentTemplate.docx");
 
             LocalDate initial = LocalDate.of(obj.getYear(), i, 01);
             Month month = Month.of(i);
